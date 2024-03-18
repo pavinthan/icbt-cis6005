@@ -1,7 +1,10 @@
 # Kaggle House Prices - Advanced Regression Techniques
+
+## Build Models
+
 This project is based on the [House Prices Prediction - Advanced Regression Techniques competition on Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview).
 
-## Requirements
+### Requirements
 
 This project requires **Python 3** and the following Python libraries:
 
@@ -13,23 +16,28 @@ This project requires **Python 3** and the following Python libraries:
 
 You will also need [Jupyter Notebook](https://jupyter.org/) installed to run the notebooks.
 
-## Project Structure
+## House Prices Prediction App
 
-The Jupyter Notebooks in this project are used for data preprocessing, feature transformation, and outlier detection.
+_House prices prediction app work still in progress._
 
-The main scripts are located in the root directory. The `ensemble.py` script is used for ensemble learning, and the `base.py` script contains the base model. The input data is located in the `data` folder. You can find a detailed description of the data on the [Kaggle competition page](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
+### Requirements
 
-## Execution
+This project requires **Nodejs 20.** and the following Python libraries:
 
-To run a single model, use the following command: 
+- [Node.js](https://nodejs.org/en)
+
+### Getting Started
+
+Install dependencies:
 
 ```bash
-python base_model.py
+npm install
 ```
 
-To perform an ensemble run, use the following command:
+Run the development server:
+
 ```bash
-python ensemble.py
+npm run dev
 ```
 
-Please ensure to update the data directory and parameters as needed before running the models.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
