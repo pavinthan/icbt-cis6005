@@ -16,6 +16,26 @@ This project requires **Python 3** and the following Python libraries:
 
 You will also need [Jupyter Notebook](https://jupyter.org/) installed to run the notebooks.
 
+## Execution
+
+To run a single model, use the following command: 
+
+```bash
+python base.py
+```
+
+To perform an ensemble run, use the following command:
+```bash
+python ensemble.py
+```
+
+To perform an ensemble run, use the following command:
+```bash
+python ensemble_best.py
+```
+
+Please ensure to update the data directory and parameters as needed before running the models.
+
 ## House Prices Prediction App
 
 _House prices prediction app work still in progress._
